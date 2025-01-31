@@ -89,19 +89,25 @@ input{
     cursor: default;
 }
 
+.desc{
+    font-family:FelixFont,Arial,sans-serif; 
+    font-size: 1.5em;
+    color:#fff392;
+    text-transform: uppercase;
+    margin: 4em 0 4em 0;
+    width: 80vw;
+}
+
 #name-label{
     margin-right: 4em;
 }
 
 .screenshot-container{
-    height: 100vh;
-    width: 100vw;
     margin: 1.5em 1.5em 1.5em 1.5em;
-    padding-top: 5vh;
 }
 
 .screenshot{
-    width: 80vw;
+    width: 75vw;
     height: auto;
     image-rendering: pixelated;
     align-self: center;
