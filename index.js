@@ -9,7 +9,7 @@ const starsFraction = canvasSize / 2000;
 for(let i = 0; i < starsFraction; i++) {
   // Set up random elements
   let xPos = random(0, 100);
-  let yPos = random(-100, 100);
+  let yPos = random(-300, 100);
   let alpha = random(0.5, 1);
   let size = random(1, 2);
   let colour = '#ffffff';

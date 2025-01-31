@@ -1,24 +1,109 @@
-html,
-body {
-  height: 100%;  
+@font-face {
+    font-family: FelixFont;
+    src: url(./content/WizBiz.ttf);
+  }
+
+  ::-webkit-scrollbar {
+    background-color: black;
+    width: 10px;
+  }
+
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #5a5744;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #fff392;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fff392
+  }
+
+html,body{
+    height: 100%;
 }
 
 body {
-  overflow: hidden;
   background-color: black;
+  overflow-x: hidden;
 }
 
 .logo-container{
-    /* Center and scale the image nicely */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40vh;
-    width: 100%;
+    width: 100vw;
+    height: 75vh;
+    margin: 1.5em;
 }
 
 .logo{
-    width: auto;
-    height: 75%;
+    width: 100vw;
+    height: 20vh;
     image-rendering: pixelated;
+    align-self: center;
+}
+
+.logo-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#mc_embed_signup{
+    background: black; 
+    clear:left; 
+    font-family:FelixFont,Arial,sans-serif; 
+    font-size: 1.5em;
+    color:#fff392;
+    text-transform: uppercase;
+    margin: 1.5em;
+}
+
+#mc-embedded-subscribe{
+    background-color: #fff392;
+    color: black;
+    font-family:FelixFont,Arial,sans-serif; 
+    font-size:1.5em;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+input{
+    background-color: black;
+    color: #fff392;
+    font-family:FelixFont,Arial,sans-serif; 
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+    text-transform: uppercase;
+
+    border: #fff392 2px solid;
+    margin: 0.5em;
+
+    cursor: default;
+}
+
+#name-label{
+    margin-right: 4em;
+}
+
+.screenshot-container{
+    height: 100vh;
+    width: 100vw;
+    margin: 1.5em 1.5em 1.5em 1.5em;
+    padding-top: 5vh;
+}
+
+.screenshot{
+    width: 80vw;
+    height: auto;
+    image-rendering: pixelated;
+    align-self: center;
+    margin: 0.5em;
 }
