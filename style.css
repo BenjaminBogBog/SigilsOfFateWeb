@@ -113,3 +113,50 @@ input{
     align-self: center;
     margin: 0.5em;
 }
+
+.heading{
+    font-family:FelixFont,Arial,sans-serif; 
+    font-size: 4em;
+    color:#fff392;
+    text-transform: uppercase;
+    margin-left: 1.5em;
+    margin-top: 1.5em;
+}
+
+.subheading{
+    font-family:FelixFont,Arial,sans-serif; 
+    font-size: 3em;
+    color:#fff392;
+    text-transform: uppercase;
+    padding-left: 0.5em;
+}
+
+.characters-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 1.5em;
+    width: 100vw;
+
+    color:#fff392;
+}
+
+.character{
+  width: 20vw;
+  margin-left: 3em;
+  padding-left: 1.5em;
+}
+
+.char-desc{
+  padding-left: 1.5em;
+  padding-top: 1em;
+  font-family:FelixFont,Arial,sans-serif; 
+  text-transform: uppercase;
+  text-align: justify;
+}
+
+.character-img{
+  width: 20vw;
+  height: auto;
+  image-rendering: pixelated;
+}
