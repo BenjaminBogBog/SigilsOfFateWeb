@@ -38,6 +38,12 @@ body {
     margin: 1.5em;
 }
 
+@media (max-width: 860px) {
+    .logo-container{
+        margin:0;
+    }
+}
+
 .logo{
     width: 100vw;
     height: 20vh;
@@ -114,6 +120,16 @@ input{
     margin: 0.5em;
 }
 
+@media (max-width: 860px) {
+    .screenshot-container{
+        margin: 0;
+    }
+
+    .screenshot{
+        width: 100vw;
+    }
+}
+
 .heading{
     font-family:FelixFont,Arial,sans-serif; 
     font-size: 4em;
@@ -129,6 +145,16 @@ input{
     color:#fff392;
     text-transform: uppercase;
     padding-left: 0.5em;
+}
+
+@media (max-width: 860px) {
+    .heading{
+        margin-left: 0;
+    }
+
+    .subheading{
+      padding-left: 0;
+    }
 }
 
 .characters-container{
@@ -147,16 +173,40 @@ input{
   padding-left: 1.5em;
 }
 
+
+@media (max-width: 860px) {
+  .characters-container{
+    margin:0;
+  }
+
+  .character{
+    width: 90vw;
+    margin-left: 0;
+    padding-left: 0.5em;
+  }
+}
+
 .char-desc{
   padding-left: 1.5em;
   padding-top: 1em;
   font-family:FelixFont,Arial,sans-serif; 
   text-transform: uppercase;
-  text-align: justify;
+  text-align: left;
 }
 
 .character-img{
   width: 20vw;
   height: auto;
   image-rendering: pixelated;
+}
+
+@media (max-width: 860px) {
+  .char-desc{
+    padding-left: 0;
+  }
+
+  .character-img{
+    width: 100vw;
+    height: auto;
+  }
 }
