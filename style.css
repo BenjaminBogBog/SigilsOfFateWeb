@@ -192,6 +192,8 @@ input{
   font-family:FelixFont,Arial,sans-serif; 
   text-transform: uppercase;
   text-align: left;
+
+  height: 10vw;
 }
 
 .character-img{
@@ -199,6 +201,7 @@ input{
   height: auto;
   image-rendering: pixelated;
 }
+
 
 @media (max-width: 860px) {
   .char-desc{
